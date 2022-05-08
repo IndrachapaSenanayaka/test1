@@ -32,8 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+<<<<<<< HEAD
+  to {
+    transform: rotate(360deg);
+  }
+}
+=======
 
   to {
     transform: rotate(360deg);
   }
 }
+>>>>>>> 830c9445501bef9146d56e1fa820df3db7f33f28
