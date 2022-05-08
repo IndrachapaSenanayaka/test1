@@ -21,8 +21,20 @@ app.get("/", (req, res, next) => {
     next();
 });
 
+<<<<<<< HEAD
 const appointmentRouter = require("./api/routes/appointment");
 app.use("/appointments", appointmentRouter);
+=======
+const staffRouter = require("./api/routes/staffs");
+app.use("/staff", staffRouter);
+
+ const pharmacistRouter = require("./api/routes/pharmacist");
+app.use("/pharmacist", pharmacistRouter);
+
+ const receptionistRouter = require("./api/routes/receptionist");
+app.use("/receptionist", receptionistRouter);
+
+>>>>>>> 830c9445501bef9146d56e1fa820df3db7f33f28
 
 
 
